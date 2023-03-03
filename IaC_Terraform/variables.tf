@@ -12,7 +12,7 @@ variable "site_domain" {
 
 variable "mainsite_domain" {
     type = string
-    description = "Site domain"
+    description = "Site domains"
     default = "madebyfrankely.com"
 }
 
