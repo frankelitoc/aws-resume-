@@ -1,16 +1,12 @@
 terraform {
+  required_version = ">=0.14.9"
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "4.0.0"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "3.1.0"
+      version = "~>3.27"
     }
   }
-
-  required_version = ">=0.14.9"
 
    backend "s3" {
     bucket = "frankelybucket"
@@ -18,4 +14,9 @@ terraform {
     region = "us-east-1"
   }
 
+}
+
+provider "aws"{
+    version = "~>3.0"
+    region = var.aws_region
 }
