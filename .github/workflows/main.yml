@@ -41,7 +41,7 @@ jobs:
 
 #        echo "** Running Terraform Apply**"
 #        terraform apply -auto-approve
-      working-directory: ${{ github.event.inputs.tfpath }}
+      working-directory: 'IaC_Terraform'
 
 #    - name: Sync S3
 #      uses: jakejarvis/s3-sync-action@master
