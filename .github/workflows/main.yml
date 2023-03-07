@@ -36,9 +36,6 @@ jobs:
         echo "** Running Terraform Validate**"
         terraform validate
 
-        echo "** Running Terraform Plan**"
-        terraform plan
-
         echo "** Running Terraform Apply**"
         terraform apply -auto-approve
       working-directory: 'IaC_Terraform'
