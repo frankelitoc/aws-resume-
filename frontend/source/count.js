@@ -11,10 +11,10 @@ const getVisitCount = () => {
         return response.json()
     })
     .then(response => {
-        //console.log("API Function Called.")
-        //console.log(response)
+        console.log("API Function Called.")
+        console.log(response)
         count = response;
-        //console.log(document.getElementById('counter').innerText);
+        console.log(document.getElementById('counter').innerText);
         document.getElementById('counter').innerText = count;
     }).catch(function(error) {
         console.log(error);
