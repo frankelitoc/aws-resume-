@@ -6,7 +6,7 @@ const apicall = 'https://1pohivmhq8.execute-api.us-east-1.amazonaws.com/default/
 
 const getVisitCount = () => {
     let count;
-    fetch(functionApi)
+    fetch(apicall)
     .then(response => {
         return response.json()
     })
