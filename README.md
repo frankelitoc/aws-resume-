@@ -11,7 +11,7 @@
 ---
 
 ### Demo
-[View the live site here!](https://www.resume.madebyfrankely.com)
+[View the live site here!](https://resume.madebyfrankely.com/)
 
 ---
 
