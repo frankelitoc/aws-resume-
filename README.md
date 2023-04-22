@@ -11,12 +11,12 @@
 ---
 
 ### Demo
-[View the live site here!](https://www.resume.madebyfrankely.com)
+[View the live site here!](https://resume.madebyfrankely.com/)
 
 ---
 
 ### Blog Posts
-![Building the CI/CD Pipeline](https://blog.madebyfrankely.com/aws-cloud-resume-challenge/)
+[Building the CI/CD Pipeline](https://blog.madebyfrankely.com/aws-cloud-resume-challenge/)
 
 ---
 
