@@ -19,5 +19,5 @@ variable "mainsite_domain" {
 variable "certificate_arn" {
     type = string
     description = "Certificate ARN"
-    default = "arn:aws:acm:us-east-1:320964430417:certificate/26a20b6a-c7f9-4c55-9be4-485b98459ff0"
+    default = "arn:aws:acm:us-east-1:320964430417:certificate/85cdc1ea-c3a2-4484-80db-be294868d18f"
 }
